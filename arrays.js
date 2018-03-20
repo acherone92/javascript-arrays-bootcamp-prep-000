@@ -22,7 +22,11 @@ function accessElementInArray(array, index){
   return array[index];
 }
 
+<<<<<<< HEAD
 function destructivelyRemoveElementFromBeginningOfArray(array){
+=======
+function destructivelyRemoveElementfromBeginningOfArray(array){
+>>>>>>> f3950a6905bce0213993bb4cbd3d64397845777c
   array.shift();
   return array;
   }
@@ -32,6 +36,7 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
+<<<<<<< HEAD
   array.pop();
   return array;
 }
@@ -39,4 +44,7 @@ function destructivelyRemoveElementFromEndOfArray(array){
 function removeElementFromEndOfArray(array){
   return array.slice(0,array.length-1);
   
+=======
+  return array.pop();
+>>>>>>> f3950a6905bce0213993bb4cbd3d64397845777c
 }
